@@ -1,0 +1,735 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+    <title>OTAMANKO</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,600;1,600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="body"> 
+    <header class="header header-main">
+        <div class="container">
+            <div class="header__inner">
+                <div class="header__left">
+                    <a class="header__logo" href="index.html">
+                        <img src="img/logo.svg" alt="logo">
+                    </a>
+                    <div class="header__catalog">
+                        <div class="header__catalog-block">
+                            <p class="header__catalog-name">Каталог іграшок</p>
+                        </div>
+                        <div class="header__catalog-content">
+                            <div class="hader__catalog-inner">
+                                <div class="header__catalog-select">
+                                    <a class="header__catalog-link" href="#">Електрична залізниця</a>
+                                    <a class="header__catalog-link" href="#">Іграшки на РК</a>
+                                    <a class="header__catalog-link" href="#">АвтоКонструктор</a>
+                                    <a class="header__catalog-link" href="#">Конструктор</a>
+                                    <a class="header__catalog-link" href="#">Іграшкова зброя</a>
+                                    <a class="header__catalog-link" href="#">Трюкова залізниця</a>
+                                    <a class="header__catalog-link" href="#">Електроінструменти</a>
+                                    <a class="header__catalog-link" href="#">Ігрові набори з ляльками</a>
+                                    <a class="header__catalog-link" href="#">Ігровий набір "Ферма"</a>
+                                </div>
+                                <div class="header__catalog-images">
+                                    <div class="header__catalog-img">
+                                        <img src="img/header/car.png" alt="">
+                                    </div>
+                                    <div class="header__catalog-img">
+                                        <img src="img/header/car.png" alt="">
+                                    </div>
+                                    <div class="header__catalog-img">
+                                        <img src="img/hero/car.png" alt="">
+                                    </div>
+                                    <div class="header__catalog-img">
+                                        <img src="img/header/car.png" alt="">
+                                    </div>
+                                    <div class="header__catalog-img">
+                                        <img src="img/header/car.png" alt="">
+                                    </div>
+                                    <div class="header__catalog-img">
+                                        <img src="img/header/car.png" alt="">
+                                    </div>
+                                    <div class="header__catalog-img">
+                                        <img src="img/header/car.png" alt="">
+                                    </div>
+                                    <div class="header__catalog-img">
+                                        <img src="img/header/car.png" alt="">
+                                    </div>
+                                    <div class="header__catalog-img">
+                                        <img src="img/header/car.png" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <nav class="header__menu">
+                        <ul>
+                            <li>
+                                <a href="#" class="header__link">Про бренд</a>
+                            </li>
+                            <li>
+                                <a href="#" class="header__link">Новини</a>
+                            </li>
+                            <li>
+                                <a href="#" class="header__link">Де купити</a>
+                            </li>
+                            <li>
+                                <a href="#" class="header__link">Співпраця</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>           
+                <div class="header__right">
+                    <div class="header__social">
+                        <a class="header__social-link" href="#">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18" fill="none">
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M12.8571 18H5.14286C3.77889 18 2.47078 17.4658 1.5063 16.5149C0.541831 15.564 0 14.2743 0 12.9296V5.07042C0 3.72566 0.541831 2.43598 1.5063 1.48509C2.47078 0.534204 3.77889 0 5.14286 0H12.8571C14.2211 0 15.5292 0.534204 16.4937 1.48509C17.4582 2.43598 18 3.72566 18 5.07042V12.9296C18 13.5954 17.867 14.2548 17.6085 14.8699C17.3501 15.4851 16.9713 16.0441 16.4937 16.5149C16.0161 16.9857 15.4492 17.3592 14.8252 17.614C14.2013 17.8688 13.5325 18 12.8571 18ZM16.3286 4.69014C16.3286 3.84967 15.9899 3.04361 15.3871 2.44931C14.7843 1.855 13.9668 1.52113 13.1143 1.52113H4.75714C3.90466 1.52113 3.0871 1.855 2.48431 2.44931C1.88151 3.04361 1.54286 3.84967 1.54286 4.69014V12.9296C1.54286 13.7701 1.88151 14.5761 2.48431 15.1704C3.0871 15.7647 3.90466 16.0986 4.75714 16.0986H13.1143C13.9668 16.0986 14.7843 15.7647 15.3871 15.1704C15.9899 14.5761 16.3286 13.7701 16.3286 12.9296V4.69014ZM13.7571 5.19718C13.5283 5.19718 13.3046 5.13027 13.1143 5.00492C12.924 4.87956 12.7757 4.70138 12.6881 4.49292C12.6005 4.28446 12.5776 4.05507 12.6222 3.83377C12.6669 3.61247 12.7771 3.40919 12.9389 3.24964C13.1007 3.09009 13.3069 2.98143 13.5314 2.93741C13.7559 2.89339 13.9885 2.91599 14.2 3.00233C14.4114 3.08868 14.5921 3.23491 14.7193 3.42252C14.8464 3.61013 14.9143 3.8307 14.9143 4.05634C14.9143 4.35891 14.7924 4.64909 14.5754 4.86304C14.3584 5.07699 14.064 5.19718 13.7571 5.19718ZM8.93571 13.5634C8.00756 13.5634 7.10024 13.292 6.3285 12.7836C5.55677 12.2752 4.95528 11.5526 4.60009 10.7072C4.24489 9.86177 4.15195 8.93149 4.33302 8.03398C4.5141 7.13648 4.96105 6.31207 5.61736 5.66501C6.27366 5.01794 7.10985 4.57729 8.02018 4.39876C8.9305 4.22024 9.87408 4.31186 10.7316 4.66205C11.5891 5.01224 12.322 5.60526 12.8377 6.36613C13.3533 7.127 13.6286 8.02153 13.6286 8.93662C13.6286 10.1637 13.1342 11.3405 12.2541 12.2082C11.374 13.0759 10.1803 13.5634 8.93571 13.5634ZM8.93571 5.95775C8.33813 5.95775 7.75397 6.13245 7.2571 6.45978C6.76023 6.7871 6.37296 7.25234 6.14428 7.79665C5.91559 8.34097 5.85576 8.93992 5.97234 9.51777C6.08892 10.0956 6.37668 10.6264 6.79923 11.043C7.22179 11.4596 7.76017 11.7433 8.34627 11.8583C8.93237 11.9732 9.53987 11.9142 10.092 11.6887C10.6441 11.4633 11.1159 11.0815 11.4479 10.5916C11.7799 10.1017 11.9571 9.52578 11.9571 8.93662C11.9571 8.14657 11.6388 7.38888 11.0722 6.83024C10.5056 6.27159 9.73705 5.95775 8.93571 5.95775Z" fill="#101834"/>
+                            </svg>
+                        </a>
+                        <a class="header__social-link" href="#">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18" fill="none">
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M4.5 5.95041H6.42857V4.16529C6.42857 3.37031 6.471 2.10332 7.07143 1.33884C7.70046 0.533752 8.47639 0 9.96429 0C12.3911 0 13.5 0.297521 13.5 0.297521L13.0179 3.12397C12.5014 2.95049 11.9596 2.85019 11.4107 2.82645C10.6582 2.82645 9.96429 2.99559 9.96429 3.71901V5.95041H13.1786V8.6281H9.96429V18H6.42857V8.6281H4.5V5.95041Z" fill="#101834"/>
+                            </svg>
+                        </a>
+                        <a class="header__social-link" href="#">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18" fill="none">
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M10.6654 1.73475H11.7761V5.20426C11.7761 5.6641 11.7455 6.13836 12.3314 6.13836C12.6993 6.13836 12.7479 5.79408 12.7479 5.07082V1.73475H13.8585V6.80557H12.7479V6.53869L12.3314 6.40524C12.2744 6.55854 12.179 6.69602 12.0537 6.80557C11.9333 6.89179 11.7873 6.93856 11.6372 6.93901C11.4434 6.94032 11.2523 6.89441 11.0819 6.80557C10.9644 6.74437 10.8679 6.65164 10.8043 6.53869C10.7375 6.41262 10.6907 6.27769 10.6654 6.13836C10.6488 5.97609 10.6654 5.57123 10.6654 5.07082V1.73475ZM6.91705 3.86983C6.91705 3.34567 6.8282 2.95682 6.91705 2.66885C7.02948 2.39858 7.22272 2.1664 7.47236 2.00164C7.70825 1.82044 8.00352 1.72584 8.30533 1.73475C8.58989 1.71856 8.87459 1.76417 9.13831 1.8682C9.3137 1.96114 9.4581 2.09994 9.55479 2.26852C9.67618 2.43119 9.7699 2.61136 9.83245 2.80229C9.91651 3.10738 9.96311 3.42088 9.97128 3.73639V4.67049C9.96399 5.03002 9.91745 5.38783 9.83245 5.73803C9.78295 5.97483 9.68885 6.20095 9.55479 6.40524C9.46251 6.57697 9.31697 6.71687 9.13831 6.80557C8.92057 6.90043 8.68311 6.94608 8.44416 6.93901C8.16037 6.94362 7.87809 6.8984 7.61119 6.80557C7.44511 6.76412 7.29839 6.6701 7.1947 6.53869C7.06535 6.33212 6.97159 6.10681 6.91705 5.87147C6.91288 5.88415 6.91705 5.28886 6.91705 4.80393V3.86983ZM4.2793 0L5.11227 2.66885C5.27053 1.94319 5.56485 1.04632 5.80641 0H6.63939L5.66759 4.00328V6.80557H4.69578V4.00328L3.44632 0H4.2793ZM17.3292 15.6128C17.2595 16.2141 16.9701 16.772 16.5125 17.1874C16.0549 17.6029 15.4588 17.8487 14.8303 17.8813C10.9861 18.0396 7.14519 18.0396 3.30749 17.8813C2.00111 17.7999 0.814127 16.8626 0.669745 15.6128C0.526752 13.6135 0.526752 11.6071 0.669745 9.60786C0.812739 8.35844 2.00111 7.29357 3.30749 7.2059C7.15028 7.04964 10.8473 7.04964 14.6915 7.2059C15.9965 7.29357 17.1848 8.35844 17.3292 9.60786C17.4736 11.6071 17.4736 13.6135 17.3292 15.6128ZM8.44416 6.40524C8.99948 6.40524 8.86065 5.64902 8.86065 5.47114V3.33606C8.86065 2.80229 8.7718 2.40797 8.44416 2.40197C8.10959 2.39583 8.02768 2.80229 8.02768 3.33606V5.47114C8.02768 5.79394 8.01935 6.40524 8.44416 6.40524ZM2.05803 10.0082H3.16867V15.8797H4.41813V10.0082H5.52876V8.94065H2.05803V10.0082ZM7.61119 13.878C7.61119 14.5052 7.48624 14.612 7.47236 14.6787C7.44289 14.7608 7.38619 14.8314 7.31096 14.8797C7.23573 14.9279 7.14611 14.951 7.05587 14.9456C6.87401 14.9456 6.82125 14.8339 6.77822 14.6787C6.76017 14.6137 6.77822 14.4753 6.77822 13.878V10.542H5.66759V14.9456C5.69084 15.1718 5.73734 15.3953 5.80641 15.6128C5.86898 15.7265 5.96573 15.8195 6.08407 15.8797C6.20455 15.9657 6.35048 16.0124 6.50056 16.0131C6.65002 16.009 6.7949 15.9626 6.91705 15.8797C7.04129 15.7693 7.13646 15.632 7.1947 15.4793L7.61119 15.6128V15.8797H8.58299V10.542H7.61119V13.878ZM12.3314 10.8088C12.2671 10.6963 12.1708 10.6037 12.0537 10.542C11.8796 10.4625 11.6909 10.4172 11.4984 10.4085C11.361 10.4085 11.3401 10.4716 11.2207 10.542C11.1791 10.5678 10.5266 11.3426 10.5266 11.3426V8.94065H9.41597V15.8797H10.5266V15.6128L10.6654 15.2125L10.9431 15.4793C11.0486 15.6463 11.0972 15.7996 11.2207 15.8797C11.3446 15.9592 11.4885 16.0053 11.6372 16.0131C11.9871 16.0131 12.212 15.7853 12.3314 15.4793C12.4048 15.2629 12.4514 15.039 12.4702 14.8121V12.0098C12.4702 12.0205 12.4688 11.3381 12.4702 11.2092C12.4477 11.0692 12.4007 10.9338 12.3314 10.8088ZM11.3596 14.0115C11.3596 14.5044 11.3623 14.6767 11.3596 14.6787C11.3288 14.7583 11.2723 14.8263 11.1983 14.8727C11.1243 14.9192 11.0368 14.9416 10.9486 14.9366C10.8595 14.9395 10.7714 14.9164 10.6961 14.8704C10.6208 14.8243 10.5617 14.7575 10.5266 14.6787C10.5016 14.606 10.5266 14.4628 10.5266 14.0115V12.677C10.5266 12.2072 10.5044 11.942 10.5266 11.8764C10.5612 11.7976 10.6191 11.7303 10.6932 11.6829C10.7672 11.6354 10.8541 11.6099 10.9431 11.6095C11.0325 11.608 11.1203 11.6327 11.1947 11.6804C11.2691 11.7281 11.3266 11.7965 11.3596 11.8764C11.3832 11.949 11.3596 12.2327 11.3596 12.677V14.0115ZM14.275 13.3443H16.2186V12.8105C16.2186 12.2913 16.1797 11.6198 16.0798 11.3426C15.9867 11.074 15.7604 10.969 15.5244 10.8088C15.2857 10.6327 14.9924 10.5387 14.6915 10.542C14.3985 10.542 14.082 10.545 13.8585 10.6754C13.6086 10.84 13.4153 11.0722 13.3032 11.3426C13.1991 11.5996 13.1643 12.0249 13.1643 12.677V14.2784C13.1575 14.7111 13.2835 15.1361 13.5267 15.5003C13.6653 15.6576 13.8429 15.7787 14.0431 15.8526C14.2917 15.9562 14.5594 16.0107 14.8303 16.0131C15.0252 16.0237 15.2188 15.9772 15.3856 15.8797C15.5647 15.7884 15.8201 15.6607 15.9409 15.4793C16.1853 14.8728 16.2186 15.0781 16.2186 14.1449V13.878H15.108V14.4118C15.108 14.7131 15.1524 14.961 15.108 15.079C15.0742 15.1584 15.0165 15.2262 14.9422 15.2738C14.868 15.3213 14.7807 15.3464 14.6915 15.3459C14.343 15.35 14.275 15.0178 14.275 14.5452V13.3443ZM14.275 12.0098C14.275 11.5731 14.2542 11.669 14.275 11.6095C14.3092 11.5305 14.3671 11.4629 14.4412 11.4155C14.5153 11.368 14.6024 11.3426 14.6915 11.3426C14.7805 11.3426 14.8676 11.368 14.9417 11.4155C15.0159 11.4629 15.0737 11.5305 15.108 11.6095C15.1274 11.6708 15.108 11.603 15.108 12.0098V12.8105H14.275V12.0098Z" fill="#101834"/>
+                            </svg>
+                        </a>
+                    </div>
+                    <div class="header__phone">
+                        <p class="header__phone-name">Гаряча лінія</p>
+                        <a class="header__phone-tel" href="tel:+380800604433">0 800 60 44 33</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main class="main">
+        <section class="hero">
+            <div class="container">
+                <div class="hero__inner">
+                    <div class="hero__slider-content">
+                        <div class="hero__slider">
+                            <div class="swiper-wrapper">
+                                <div class="hero__slide swiper-slide">
+                                    <div class="container">
+                                        <div class="hero__top">
+                                            <h1 class="hero__title">Автоконструктор pink барбі</h1>
+                                            <p class="hero__descr">Машина Jada Бетмобіль Темного Лицаря металевий з фігуркою Бетмена — чудовий подарунок для активних дітей!</p>
+                                        </div>
+                                        <div class="hero__bottom">
+                                            <p class="hero__new">Зустрічай новинку</p>
+                                            <button class="hero__button btn">Каталог новинок</button>
+                                        </div>
+                                        <div class="hero__slide-image hero__slide-car">
+                                            <img class="hero__slide-img" src="img/hero/car.png" alt="car">
+                                            <img class="hero__slide-bg" src="img/hero/bg.svg" alt="bg">        
+                                        </div>
+                                    </div>                                    
+                                </div>
+                                <div class="hero__slide swiper-slide hero__slide-full">
+                                    <div class="container">
+                                        <div class="hero__top">
+                                            <h1 class="hero__title">Автоконструктор pink барбі</h1>
+                                            <p class="hero__descr">Машина Jada Бетмобіль Темного Лицаря металевий з фігуркою Бетмена — чудовий подарунок для активних дітей!</p>
+                                        </div>
+                                        <div class="hero__bottom">
+                                            <button class="hero__button btn">Каталог новинок</button>
+                                        </div>
+                                        <div class="hero__slide-image">
+                                            <img class="hero__slide-img" src="img/hero/2.jpg" alt="car">    
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="hero__block">
+                        <div class="hero__buttons">
+                            <button class="hero__slider-prev hero__slider-btn">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 17 17" fill="none">
+                                    <path d="M8.66667 15.4961L2 8.8025M8.66666 2.10891L2 8.8025M2 8.8025L16 8.8025" stroke="#101834" stroke-width="2" stroke-linecap="square"/>
+                                </svg>
+                            </button>
+                            <button class="hero__slider-next hero__slider-btn">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 17 17" fill="none">
+                                    <path d="M8.33333 15.4961L15 8.8025M8.33334 2.10891L15 8.8025M15 8.8025L1 8.8025" stroke="#101834" stroke-width="2" stroke-linecap="square"/>
+                                </svg>
+                            </button>
+                        </div>
+                        <div class="hero__content">
+                            <div class="hero__item">
+                                <div class="hero__item-video">
+                                    <video autoplay playsinline muted loop>
+                                        <source src="video/shares/1.mp4" type="video/mp4">
+                                    </video>
+                                </div>
+                                <p class="hero__item-name">Йди на зустріч пригодам</p>
+                            </div>
+                            <div class="hero__item">
+                                <div class="hero__item-video">
+                                    <video autoplay playsinline muted loop>
+                                        <source src="video/shares/2.mp4" type="video/mp4">
+                                    </video>
+                                </div>
+                                <p class="hero__item-name">Новий <br>shotgun</p>
+                                <a class="hero__item-btn btn" href="#">детальніше</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="catalog">
+            <div class="container">
+                <div class="catalog__inner">
+                    <h2 class="catalog__title">Каталог іграшок</h2>
+                    <div class="catalog__content">
+                        <div class="catalog__item">
+                            <h3 class="catalog__item-title">Електрична залізниця</h3>
+                            <a class="catalog__item-btn" href="caralog.html">До каталогу</a>
+                            <div class="catalog__item-logo">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="170" height="22" viewBox="0 0 170 22" fill="none">
+                                    <path d="M70.6789 10.877L60.1094 0.289062V21.7009H64.8855V11.3241L70.6789 17.1092L76.4707 11.3241V21.7009H81.2483V0.289062L70.6789 10.877Z" fill="white"/>
+                                    <path d="M22.832 0.419922V5.13184H29.1435V21.5796H33.9211V5.13184H40.2604V0.419922H22.832Z" fill="white"/>
+                                    <path d="M47.9608 10.0096L51.1547 16.8385H44.7537L47.9608 10.0096ZM47.9608 0.167969L37.5117 21.5798H58.4114L47.9608 0.167969Z" fill="white"/>
+                                    <path d="M93.3998 10.0096L96.5937 16.8385H90.1927L93.3998 10.0096ZM93.3998 0.167969L82.9492 21.5798H103.849L93.3983 0.167969H93.3998Z" fill="white"/>
+                                    <path d="M105.551 0.167969V21.5798H110.327V10.5169L123.703 21.8188V0.406936H118.927V11.4698L105.551 0.167969Z" fill="white"/>
+                                    <path d="M139.884 0.40625L132.479 11.022V0.40625H127.703V21.5791H132.479V11.6495L140.421 21.5791H146.334L137.944 11.0821L145.378 0.40625H139.884Z" fill="white"/>
+                                    <path d="M11.424 0.173828C17.3949 0.173828 22.2621 5.03382 22.2621 10.9992C22.2621 16.9646 17.3964 21.8246 11.424 21.8246C5.45161 21.8246 0.585938 16.9646 0.585938 10.9992C0.585938 5.03382 5.45161 0.173828 11.424 0.173828ZM11.424 4.76553C7.99086 4.76553 5.39292 7.59943 5.39292 10.9978C5.39292 14.3961 7.99086 17.23 11.424 17.23C14.8571 17.23 17.4551 14.3975 17.4551 10.9978C17.4551 7.59796 14.8571 4.76553 11.424 4.76553Z" fill="white"/>
+                                    <path d="M169.513 21.5703H148.324V0.40625H169.513V21.5703ZM164.738 5.1167H153.099V16.8613H164.738V5.11524V5.1167Z" fill="white"/>
+                                </svg>
+                            </div>
+                            <span class="catalog__item-smils">
+                                <img src="img/smils/8.svg" alt="">
+                            </span>
+                            <span class="catalog__item-smils">
+                                <img src="img/smils/11.svg" alt="">
+                            </span>
+                            <div class="catalog__item-images">
+                                <img class="active" src="img/catalog/1.png" alt="">
+                                <img src="img/catalog/1.png" alt="">
+                            </div>
+                        </div>
+                        <div class="catalog__item">
+                            <div class="catalog__item-smils">
+                                <img src="img/smils/9.svg" alt="">
+                            </div>
+                            <h3 class="catalog__item-title">іграшкова зброя</h3>
+                            <a class="catalog__item-btn" href="#">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 17 17" fill="none">
+                                    <path d="M8.33333 15.4961L15 8.8025M8.33334 2.10891L15 8.8025M15 8.8025L1 8.8025" stroke="white" stroke-width="2" stroke-linecap="square"/>
+                                </svg>
+                            </a>
+                            <div class="catalog__item-images">
+                                <img class="active" src="img/catalog/2.png" alt="">
+                                <img src="img/catalog/2.png" alt="">
+                            </div>
+                        </div>
+                        <div class="catalog__item">
+                            <h3 class="catalog__item-title">Іграшки на РК</h3>
+                            <a class="catalog__item-btn" href="#">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 17 17" fill="none">
+                                    <path d="M8.33333 15.4961L15 8.8025M8.33334 2.10891L15 8.8025M15 8.8025L1 8.8025" stroke="#101834" stroke-width="2" stroke-linecap="square"/>
+                                </svg>
+                            </a>
+                            <div class="catalog__item-images">
+                                <img class="active" src="img/catalog/3.png" alt="">
+                                <img src="img/catalog/3.png" alt="">
+                            </div>
+                        </div>
+                        <div class="catalog__item">
+                            <h3 class="catalog__item-title">АвтоКонструктор</h3>
+                            <a class="catalog__item-btn" href="#">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 17 17" fill="none">
+                                    <path d="M8.33333 15.4961L15 8.8025M8.33334 2.10891L15 8.8025M15 8.8025L1 8.8025" stroke="white" stroke-width="2" stroke-linecap="square"/>
+                                </svg>
+                            </a>
+                            <div class="catalog__item-images">
+                                <img class="active" src="img/catalog/4.png" alt="">
+                                <img src="img/catalog/4.png" alt="">
+                            </div>
+                        </div>
+                        <div class="catalog__item">
+                            <div class="catalog__item-smils">
+                                <img src="img/smils/6.svg" alt="">
+                            </div>
+                            <h3 class="catalog__item-title">Трюкова залізниця</h3>
+                            <a class="catalog__item-btn" href="#">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 17 17" fill="none">
+                                    <path d="M8.33333 15.4961L15 8.8025M8.33334 2.10891L15 8.8025M15 8.8025L1 8.8025" stroke="#101834" stroke-width="2" stroke-linecap="square"/>
+                                </svg>
+                            </a>
+                            <div class="catalog__item-images">
+                                <img class="active" src="img/catalog/5.png" alt="">
+                                <img src="img/catalog/5.png" alt="">
+                            </div>
+                        </div>
+                        <div class="catalog__item">
+                            <h3 class="catalog__item-title">Ігровий набір "Ферма"</h3>
+                            <a class="catalog__item-btn" href="#">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 17 17" fill="none">
+                                    <path d="M8.33333 15.4961L15 8.8025M8.33334 2.10891L15 8.8025M15 8.8025L1 8.8025" stroke="#101834" stroke-width="2" stroke-linecap="square"/>
+                                </svg>
+                            </a>
+                            <div class="catalog__item-images">
+                                <img class="active" src="img/catalog/6.png" alt="">
+                                <img src="img/catalog/6.png" alt="">
+                            </div>
+                            <div class="catalog__item-bg">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="846" height="369" viewBox="0 0 846 369" fill="none">
+                                    <g opacity="0.2">
+                                      <path d="M81.6466 283.982L0 202.193V367.594H36.8944V287.436L81.6466 332.124L126.387 287.436V367.594H163.293V202.193L81.6466 283.982Z" fill="white"/>
+                                      <path d="M171.842 1.94818V38.3466H220.597V165.401H257.502V38.3466H306.472V1.94818H171.842Z" fill="white"/>
+                                      <path d="M365.953 76.0244L390.625 128.776H341.178L365.953 76.0244ZM365.953 0L285.236 165.401H446.681L365.953 0Z" fill="white"/>
+                                      <path d="M257.151 277.277L281.823 330.029H232.377L257.151 277.277ZM257.151 201.253L176.423 366.654H337.868L257.14 201.253H257.151Z" fill="white"/>
+                                      <path d="M351.009 201.253V366.654H387.903V281.196L491.229 368.5V203.099H454.334V288.557L351.009 201.253Z" fill="white"/>
+                                      <path d="M616.221 203.099L559.02 285.103V203.099H522.126V366.654H559.02V289.951L620.371 366.654H666.042L601.232 285.568L658.66 203.099H616.221Z" fill="white"/>
+                                      <path d="M83.7213 0.0452374C129.845 0.0452374 167.443 37.5875 167.443 83.6687C167.443 129.75 129.857 167.292 83.7213 167.292C37.5861 167.292 0 129.75 0 83.6687C0 37.5875 37.5861 0.0452374 83.7213 0.0452374ZM83.7213 35.515C57.2012 35.515 37.1327 57.4061 37.1327 83.6574C37.1327 109.909 57.2012 131.8 83.7213 131.8C110.241 131.8 130.31 109.92 130.31 83.6574C130.31 57.3948 110.241 35.515 83.7213 35.515Z" fill="white"/>
+                                      <path d="M845.118 366.586H681.439V203.099H845.118V366.586ZM808.234 239.486H718.322V330.211H808.234V239.475V239.486Z" fill="white"/>
+                                    </g>
+                                  </svg>
+                            </div>
+                        </div>
+                    </div>
+                    <a class="catalog__link btn-2" href="#">Перейти в каталог</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="buy">
+            <div class="container">
+                <div class="buy__inner">
+                    <h2 class="buy__title">Де купити</h2>
+                    <div class="buy__content">
+                        <a class="buy__item" href="#">
+                            <div class="buy__item-image">
+                                <img src="img/buy/1.svg" alt="ibic">
+                            </div>
+                            <p class="buy__item-name">ІБІС</p>
+                        </a>
+                        <a class="buy__item" href="#">
+                            <div class="buy__item-image">
+                                <img src="img/buy/2.png" alt="Епіцентр">
+                            </div>
+                            <p class="buy__item-name">Епіцентр</p>
+                        </a>
+                        <a class="buy__item" href="#">
+                            <div class="buy__item-image">
+                                <img src="img/buy/3.png" alt="ROZETKA">
+                            </div>
+                            <p class="buy__item-name">ROZETKA</p>
+                        </a>
+                        <a class="buy__item" href="#">
+                            <div class="buy__item-image">
+                                <img src="img/buy/4.svg" alt="Maudau">
+                            </div>
+                            <p class="buy__item-name">Maudau</p>
+                        </a>
+                        <a class="buy__item" href="#">
+                            <div class="buy__item-image">
+                                <img src="img/buy/5.svg" alt="Антошка">
+                            </div>
+                            <p class="buy__item-name">Антошка</p>
+                        </a>
+                        <a class="buy__item" href="#">
+                            <div class="buy__item-image">
+                                <img src="img/buy/6.png" alt="Будинок іграшок">
+                            </div>
+                            <p class="buy__item-name">Будинок іграшок</p>
+                        </a>
+                        <a class="buy__item" href="#">
+                            <div class="buy__item-image">
+                                <img src="img/buy/7.png" alt="X-Zone">
+                            </div>
+                            <p class="buy__item-name">X-Zone</p>
+                        </a>
+                        <a class="buy__item" href="#">
+                            <div class="buy__item-image">
+                                <img src="img/buy/8.svg" alt="X-Zone">
+                            </div>
+                            <p class="buy__item-name">X-Zone</p>
+                        </a>
+                        <a class="buy__item" href="#">
+                            <div class="buy__item-image">
+                                <img src="img/buy/9.png" alt="Myplay">
+                            </div>
+                            <p class="buy__item-name">Myplay</p>
+                        </a>
+                        <a class="buy__item" href="#">
+                            <div class="buy__item-image">
+                                <img src="img/buy/10.png" alt="SmartToys">
+                            </div>
+                            <p class="buy__item-name">SmartToys</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="novelty">
+            <div class="container">
+                <div class="novelty__inner">
+                    <h2 class="novelty__title">Наші новинки</h2>
+                    <div class="novelty__content">
+                        <div class="novelty__item">
+                            <span class="novelty__item-smils">
+                                <img src="img/smils/1.svg" alt="">
+                            </span>
+                            <div class="novelty__item-top">
+                                <div class="novelty__item-image">
+                                    <img src="img/novelty/1.png" alt="">
+                                </div>
+                                <div class="novelty__item-bg">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="424" height="305" viewBox="0 0 424 305" fill="none">
+                                        <path d="M77.2764 0C119.853 0 154.553 34.7302 154.553 77.343C154.553 119.956 119.853 154.686 77.2764 154.686C34.7003 154.686 0 119.956 0 77.343C0 34.7302 34.7003 0 77.2764 0ZM77.2764 32.8074C52.7957 32.8074 34.2698 53.0487 34.2698 77.335C34.2698 101.621 52.7878 121.863 77.2764 121.863C101.765 121.863 120.275 101.621 120.275 77.335C120.275 53.0487 101.757 32.8074 77.2764 32.8074Z" fill="#F3EEEB"/>
+                                        <path d="M349.49 71.1598L372.272 119.948H326.627L349.49 71.1598ZM274.987 153.824H424L349.49 0.845844L274.987 153.824Z" fill="#F3EEEB"/>
+                                        <path d="M195.933 153.832V271.339H150.719V305H274.987V271.339H229.988V153.832H195.933Z" fill="#F3EEEB"/>
+                                    </svg>
+                                </div>
+                            </div>
+                            <div class="novelty__item-content">
+                                <div class="novelty__item-main">
+                                    <p class="novelty__item-article">Артикул: 253215005</p>
+                                    <p class="novelty__item-title">Машина Jada Бетмобіль Темного Лицаря металевий з фігуркою Бетмена — чудовий подарунок для активних дітей!</p>
+                                    <p class="novelty__item-descr">Машина сподобається і дівчаткам, і хлопчикам віком від 8-ми років. Фанати Бетмена будуть у захваті від цього набору! Тільки гляньте на цей дизайн — які лінії, які форми! Така машинка може належати тільки супергерою! У неї міцний корпус, великі колеса, дверцята відчиняються. Гра з набором допоможе дітям розвинути координацію рухів, дрібну моторику та фантазію.</p>
+                                </div>
+                                <a class="novelty__item-btn btn" href="#">Детальніше</a>
+                            </div>
+                        </div>
+                        <div class="novelty__item">
+                            <span class="novelty__item-smils">
+                                <img src="img/smils/2.svg" alt="">
+                            </span>
+                            <div class="novelty__item-top">
+                                <div class="novelty__item-image">
+                                    <img src="img/novelty/2.png" alt="">
+                                </div>
+                                <div class="novelty__item-bg">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="608" height="257" viewBox="0 0 608 257" fill="none">
+                                        <path d="M253.743 132.108L215.858 94.0599V171.004H232.977V133.715L253.743 154.504L274.503 133.715V171.004H291.628V94.0599L253.743 132.108Z" fill="#F3EEEB"/>
+                                        <path d="M79.7363 0.906291V17.8388H102.359V76.9443H119.483V17.8388H142.206V0.906291H79.7363Z" fill="#F3EEEB"/>
+                                        <path d="M169.805 35.3664L181.253 59.9064H158.31L169.805 35.3664ZM169.805 0L132.352 76.9442H207.264L169.805 0Z" fill="#F3EEEB"/>
+                                        <path d="M335.178 128.989L346.626 153.529H323.683L335.178 128.989ZM335.178 93.6226L297.72 170.567H372.632L335.173 93.6226H335.178Z" fill="#F3EEEB"/>
+                                        <path d="M378.729 93.6226V170.567H395.849V130.812L443.792 171.426V94.4813H426.673V134.236L378.729 93.6226Z" fill="#F3EEEB"/>
+                                        <path d="M501.79 180.915L475.248 219.063V180.915H458.129V257H475.248V221.317L503.716 257H524.907L494.835 219.279L521.482 180.915H501.79Z" fill="#F3EEEB"/>
+                                        <path d="M38.8474 0.0210444C60.2493 0.0210444 77.695 17.4856 77.695 38.9225C77.695 60.3594 60.2546 77.824 38.8474 77.824C17.4403 77.824 0 60.3594 0 38.9225C0 17.4856 17.4403 0.0210444 38.8474 0.0210444ZM38.8474 16.5215C26.5419 16.5215 17.2299 26.7052 17.2299 38.9173C17.2299 51.1293 26.5419 61.313 38.8474 61.313C51.153 61.313 60.4651 51.1345 60.4651 38.9173C60.4651 26.7 51.153 16.5215 38.8474 16.5215Z" fill="#F3EEEB"/>
+                                        <path d="M608 256.968H532.052V180.915H608V256.968ZM590.886 197.842H549.166V240.046H590.886V197.836V197.842Z" fill="#F3EEEB"/>
+                                    </svg>
+                                </div>
+                            </div>
+                            <div class="novelty__item-content">
+                                <div class="novelty__item-main">
+                                    <p class="novelty__item-article">Артикул: 253215005</p>
+                                    <p class="novelty__item-title">Машина Jada Бетмобіль Темного Лицаря металевий з фігуркою Бетмена — чудовий подарунок для активних дітей!</p>
+                                    <p class="novelty__item-descr">Машина сподобається і дівчаткам, і хлопчикам віком від 8-ми років. Фанати Бетмена будуть у захваті від цього набору! Тільки гляньте на цей дизайн — які лінії, які форми! Така машинка може належати тільки супергерою! У неї міцний корпус, великі колеса, дверцята відчиняються. Гра з набором допоможе дітям розвинути координацію рухів, дрібну моторику та фантазію.</p>
+                                </div>
+                                <a class="novelty__item-btn btn" href="#">Детальніше</a>
+                            </div>
+                        </div>
+                    </div>
+                    <a class="novelty__link btn-2" href="#">Перейти в каталог</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="about">
+            <div class="container">
+                <div class="about__inner">
+                    <p class="about__pre">Про компанію</p>
+                    <div class="about__top">
+                        <h2 class="about__title">Бренд отаманко строрений для радості дітей і бітьков</h2>
+                        <p class="about__descr">Сайт рибат екст допоможе дизайнеру, верстальнику, вебмайстру згенерувати кілька абзаців більш-менш осмисленого тексту риби українською мовою, а оратору-початківцю відточити звичку публічних виступів у домашніх умовах. Під час створення генератора ми використовували невідомий універсальний код промов. Текст генерується абзацами випадково від двох до десяти речень в абзаці, що дозволяє зробити текст більш привабливим і живим для візуально-слухового сприйняття.</p>
+                    </div>
+                    <div class="about__video">
+                        <span class="about__video-span">
+                            <img src="img/smils/6.svg" alt="">
+                        </span>
+                        <span class="about__video-span">
+                            <img src="img/smils/2.svg" alt="">
+                        </span>
+                        <span class="about__video-span">
+                            <img src="img/smils/3.svg" alt="">
+                        </span>
+                        <div class="about__video-content">
+                            <video autoplay="" playsinline="" muted="" loop="" poster="img/about/poster.jpg">
+                                <source src="video/about.mp4" type="video/mp4">
+                            </video>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="blogs">
+            <div class="container">
+                <div class="blogs__inner">
+                    <h2 class="blogs__title">Блог отаманко</h2>
+                    <div class="blogs__content blogs__slider">
+                        <div class="swiper-wrapper">
+                            <div class="blogs__slide swiper-slide">
+                                <div class="blogs__slide-image">
+                                    <img src="img/blog/1.jpg" alt="">
+                                </div>
+                                <p class="blogs__slide-date">12 червня 2024</p>
+                                <a class="blogs__slide-title" href="#">Бренд отаманко строрений для радості дітей і бітьков</a>
+                            </div>
+                            <div class="blogs__slide swiper-slide">
+                                <div class="blogs__slide-image">
+                                    <img src="img/blog/2.jpg" alt="">
+                                </div>
+                                <p class="blogs__slide-date">12 червня 2024</p>
+                                <a class="blogs__slide-title" href="#">Сайт рибат екст допоможе дизайнеру, верстальнику, вебмайстру згенерувати кілька абзаців більш-менш осмисленого тексту риби українською мовою</a>
+                            </div>
+                            <div class="blogs__slide swiper-slide">
+                                <div class="blogs__slide-image">
+                                    <img src="img/blog/3.jpg" alt="">
+                                </div>
+                                <p class="blogs__slide-date">12 червня 2024</p>
+                                <a class="blogs__slide-title" href="#">Сайт рибат екст допоможе дизайнеру, верстальнику, вебмайстру згенерувати кілька абзаців більш-менш осмисленого тексту риби українською мовою</a>
+                            </div>
+                            <div class="blogs__slide swiper-slide">
+                                <div class="blogs__slide-image">
+                                    <img src="img/blog/4.jpg" alt="">
+                                </div>
+                                <p class="blogs__slide-date">12 червня 2024</p>
+                                <a class="blogs__slide-title" href="#">Сайт рибат екст допоможе дизайнеру, верстальнику, вебмайстру згенерувати кілька абзаців більш-менш осмисленого тексту риби українською мовою</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__inner">
+                <div class="footer__left">
+                    <div class="footer__left-logo">
+                        <a class="footer__logo" href="index.html">
+                            <img src="img/footer-logo.svg" alt="logo">
+                        </a>
+                        <p class="footer__logo-descr">SKIF © 2018-2024</p>
+                    </div>
+                    <div class="footer__block">
+                        <p class="footer__name">Каталог іграшок</p>
+                        <div class="footer__content">
+                            <ul>
+                                <li>
+                                    <a class="footer__link" href="#">Іграшки для малюків</a>
+                                </li>
+                                <li>
+                                    <a class="footer__link" href="#">Ляльки та пупси</a>
+                                </li>
+                                <li>
+                                    <a class="footer__link" href="#">М'які іграшки</a>
+                                </li>
+                                <li>
+                                    <a class="footer__link" href="#">Конструктори</a>
+                                </li>
+                                <li>
+                                    <a class="footer__link" href="#">Машинки, моделі, техніка</a>
+                                </li>
+                                <li>
+                                    <a class="footer__link" href="#">Для активного відпочинку</a>
+                                </li> 
+                                <li>
+                                    <a class="footer__link" href="#">Настільні ігри та пазли</a>
+                                </li> 
+                                <li>
+                                    <a class="footer__link" href="#">Сюжетно-рольові набори</a>
+                                </li>    
+                            </ul>
+                            <ul>
+                                <li>
+                                    <a class="footer__link" href="#">Іграшкова зброя</a>
+                                </li>
+                                <li>
+                                    <a class="footer__link" href="#">Творчість і розвиток</a>
+                                </li>
+                                <li>
+                                    <a class="footer__link" href="#">Товари для школи</a>
+                                </li>
+                                <li>
+                                    <a class="footer__link" href="#">Ігрові фігурки</a>
+                                </li>
+                                <li>
+                                    <a class="footer__link" href="#">Дитячий транспорт</a>
+                                </li>
+                                <li>
+                                    <a class="footer__link" href="#">Роботи і трансформери</a>
+                                </li> 
+                                <li>
+                                    <a class="footer__link" href="#">Гаджети для дітей</a>
+                                </li> 
+                                <li>
+                                    <a class="footer__link" href="#">Подарунки</a>
+                                </li>    
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="footer__block">
+                        <p class="footer__name">Інформація</p>
+                        <div class="footer__content">
+                            <ul>
+                                <li>
+                                    <a class="footer__link" href="#">Блог</a>
+                                </li>
+                                <li>
+                                    <a class="footer__link" href="#">Доставка і оплата</a>
+                                </li>
+                                <li>
+                                    <a class="footer__link" href="#">Співпраця</a>
+                                </li>
+                                <li>
+                                    <a class="footer__link" href="#">Гарантія і сервіс</a>
+                                </li>
+                                <li>
+                                    <a class="footer__link" href="#">Угода користувача</a>
+                                </li>  
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer__right">
+                    <p class="footer__name">Контакти</p>
+                    <div class="footer__about">
+                        <a class="footer__tel" href="tel:+380800604433">0 800 60 44 33</a>
+                        <p class="footer__time">з 09.00 до 20.00 без вихідних</p>
+                        <a class="footer__email" href="mailto:info@otamanko.ua">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+                                <path d="M3.82466 6.30644L8 9.6676L12.305 6.30644M2.6391 13.6676H13.3609C14.2662 13.6676 15 12.9338 15 12.0285V4.80316C15 3.89791 14.2661 3.16406 13.3609 3.16406H2.6391C1.73385 3.16406 1 3.89791 1 4.80316L1 12.0285C1 12.9338 1.73385 13.6676 2.6391 13.6676Z" stroke="#F82837" stroke-width="2" stroke-linecap="round"/>
+                            </svg>
+                            info@otamanko.ua
+                        </a>
+                        <div class="footer__social">
+                            <a class="footer__social-link" href="#">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18" fill="none">
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M12.8571 18H5.14286C3.77889 18 2.47078 17.4658 1.5063 16.5149C0.541831 15.564 0 14.2743 0 12.9296V5.07042C0 3.72566 0.541831 2.43598 1.5063 1.48509C2.47078 0.534204 3.77889 0 5.14286 0H12.8571C14.2211 0 15.5292 0.534204 16.4937 1.48509C17.4582 2.43598 18 3.72566 18 5.07042V12.9296C18 13.5954 17.867 14.2548 17.6085 14.8699C17.3501 15.4851 16.9713 16.0441 16.4937 16.5149C16.0161 16.9857 15.4492 17.3592 14.8252 17.614C14.2013 17.8688 13.5325 18 12.8571 18ZM16.3286 4.69014C16.3286 3.84967 15.9899 3.04361 15.3871 2.44931C14.7843 1.855 13.9668 1.52113 13.1143 1.52113H4.75714C3.90466 1.52113 3.0871 1.855 2.48431 2.44931C1.88151 3.04361 1.54286 3.84967 1.54286 4.69014V12.9296C1.54286 13.7701 1.88151 14.5761 2.48431 15.1704C3.0871 15.7647 3.90466 16.0986 4.75714 16.0986H13.1143C13.9668 16.0986 14.7843 15.7647 15.3871 15.1704C15.9899 14.5761 16.3286 13.7701 16.3286 12.9296V4.69014ZM13.7571 5.19718C13.5283 5.19718 13.3046 5.13027 13.1143 5.00492C12.924 4.87956 12.7757 4.70138 12.6881 4.49292C12.6005 4.28446 12.5776 4.05507 12.6222 3.83377C12.6669 3.61247 12.7771 3.40919 12.9389 3.24964C13.1007 3.09009 13.3069 2.98143 13.5314 2.93741C13.7559 2.89339 13.9885 2.91599 14.2 3.00233C14.4114 3.08868 14.5921 3.23491 14.7193 3.42252C14.8464 3.61013 14.9143 3.8307 14.9143 4.05634C14.9143 4.35891 14.7924 4.64909 14.5754 4.86304C14.3584 5.07699 14.064 5.19718 13.7571 5.19718ZM8.93571 13.5634C8.00756 13.5634 7.10024 13.292 6.3285 12.7836C5.55677 12.2752 4.95528 11.5526 4.60009 10.7072C4.24489 9.86177 4.15195 8.93149 4.33302 8.03398C4.5141 7.13648 4.96105 6.31207 5.61736 5.66501C6.27366 5.01794 7.10985 4.57729 8.02018 4.39876C8.9305 4.22024 9.87408 4.31186 10.7316 4.66205C11.5891 5.01224 12.322 5.60526 12.8377 6.36613C13.3533 7.127 13.6286 8.02153 13.6286 8.93662C13.6286 10.1637 13.1342 11.3405 12.2541 12.2082C11.374 13.0759 10.1803 13.5634 8.93571 13.5634ZM8.93571 5.95775C8.33813 5.95775 7.75397 6.13245 7.2571 6.45978C6.76023 6.7871 6.37296 7.25234 6.14428 7.79665C5.91559 8.34097 5.85576 8.93992 5.97234 9.51777C6.08892 10.0956 6.37668 10.6264 6.79923 11.043C7.22179 11.4596 7.76017 11.7433 8.34627 11.8583C8.93237 11.9732 9.53987 11.9142 10.092 11.6887C10.6441 11.4633 11.1159 11.0815 11.4479 10.5916C11.7799 10.1017 11.9571 9.52578 11.9571 8.93662C11.9571 8.14657 11.6388 7.38888 11.0722 6.83024C10.5056 6.27159 9.73705 5.95775 8.93571 5.95775Z" fill="white"/>
+                                  </svg>
+                            </a>
+                            <a class="footer__social-link" href="#">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18" fill="none">
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M4.5 5.95041H6.42857V4.16529C6.42857 3.37031 6.471 2.10332 7.07143 1.33884C7.70046 0.533752 8.47639 0 9.96429 0C12.3911 0 13.5 0.297521 13.5 0.297521L13.0179 3.12397C12.5014 2.95049 11.9596 2.85019 11.4107 2.82645C10.6582 2.82645 9.96429 2.99559 9.96429 3.71901V5.95041H13.1786V8.6281H9.96429V18H6.42857V8.6281H4.5V5.95041Z" fill="white"/>
+                                </svg>
+                            </a>
+                            <a class="footer__social-link" href="#">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18" fill="none">
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M10.6654 1.73475H11.7761V5.20426C11.7761 5.6641 11.7455 6.13836 12.3314 6.13836C12.6993 6.13836 12.7479 5.79408 12.7479 5.07082V1.73475H13.8585V6.80557H12.7479V6.53869L12.3314 6.40524C12.2744 6.55854 12.179 6.69602 12.0537 6.80557C11.9333 6.89179 11.7873 6.93856 11.6372 6.93901C11.4434 6.94032 11.2523 6.89441 11.0819 6.80557C10.9644 6.74437 10.8679 6.65164 10.8043 6.53869C10.7375 6.41262 10.6907 6.27769 10.6654 6.13836C10.6488 5.97609 10.6654 5.57123 10.6654 5.07082V1.73475ZM6.91705 3.86983C6.91705 3.34567 6.8282 2.95682 6.91705 2.66885C7.02948 2.39858 7.22272 2.1664 7.47236 2.00164C7.70825 1.82044 8.00352 1.72584 8.30533 1.73475C8.58989 1.71856 8.87459 1.76417 9.13831 1.8682C9.3137 1.96114 9.4581 2.09994 9.55479 2.26852C9.67618 2.43119 9.7699 2.61136 9.83245 2.80229C9.91651 3.10738 9.96311 3.42088 9.97128 3.73639V4.67049C9.96399 5.03002 9.91745 5.38783 9.83245 5.73803C9.78295 5.97483 9.68885 6.20095 9.55479 6.40524C9.46251 6.57697 9.31697 6.71687 9.13831 6.80557C8.92057 6.90043 8.68311 6.94608 8.44416 6.93901C8.16037 6.94362 7.87809 6.8984 7.61119 6.80557C7.44511 6.76412 7.29839 6.6701 7.1947 6.53869C7.06535 6.33212 6.97159 6.10681 6.91705 5.87147C6.91288 5.88415 6.91705 5.28886 6.91705 4.80393V3.86983ZM4.2793 0L5.11227 2.66885C5.27053 1.94319 5.56485 1.04632 5.80641 0H6.63939L5.66759 4.00328V6.80557H4.69578V4.00328L3.44632 0H4.2793ZM17.3292 15.6128C17.2595 16.2141 16.9701 16.772 16.5125 17.1874C16.0549 17.6029 15.4588 17.8487 14.8303 17.8813C10.9861 18.0396 7.14519 18.0396 3.30749 17.8813C2.00111 17.7999 0.814127 16.8626 0.669745 15.6128C0.526752 13.6135 0.526752 11.6071 0.669745 9.60786C0.812739 8.35844 2.00111 7.29357 3.30749 7.2059C7.15028 7.04964 10.8473 7.04964 14.6915 7.2059C15.9965 7.29357 17.1848 8.35844 17.3292 9.60786C17.4736 11.6071 17.4736 13.6135 17.3292 15.6128ZM8.44416 6.40524C8.99948 6.40524 8.86065 5.64902 8.86065 5.47114V3.33606C8.86065 2.80229 8.7718 2.40797 8.44416 2.40197C8.10959 2.39583 8.02768 2.80229 8.02768 3.33606V5.47114C8.02768 5.79394 8.01935 6.40524 8.44416 6.40524ZM2.05803 10.0082H3.16867V15.8797H4.41813V10.0082H5.52876V8.94065H2.05803V10.0082ZM7.61119 13.878C7.61119 14.5052 7.48624 14.612 7.47236 14.6787C7.44289 14.7608 7.38619 14.8314 7.31096 14.8797C7.23573 14.9279 7.14611 14.951 7.05587 14.9456C6.87401 14.9456 6.82125 14.8339 6.77822 14.6787C6.76017 14.6137 6.77822 14.4753 6.77822 13.878V10.542H5.66759V14.9456C5.69084 15.1718 5.73734 15.3953 5.80641 15.6128C5.86898 15.7265 5.96573 15.8195 6.08407 15.8797C6.20455 15.9657 6.35048 16.0124 6.50056 16.0131C6.65002 16.009 6.7949 15.9626 6.91705 15.8797C7.04129 15.7693 7.13646 15.632 7.1947 15.4793L7.61119 15.6128V15.8797H8.58299V10.542H7.61119V13.878ZM12.3314 10.8088C12.2671 10.6963 12.1708 10.6037 12.0537 10.542C11.8796 10.4625 11.6909 10.4172 11.4984 10.4085C11.361 10.4085 11.3401 10.4716 11.2207 10.542C11.1791 10.5678 10.5266 11.3426 10.5266 11.3426V8.94065H9.41597V15.8797H10.5266V15.6128L10.6654 15.2125L10.9431 15.4793C11.0486 15.6463 11.0972 15.7996 11.2207 15.8797C11.3446 15.9592 11.4885 16.0053 11.6372 16.0131C11.9871 16.0131 12.212 15.7853 12.3314 15.4793C12.4048 15.2629 12.4514 15.039 12.4702 14.8121V12.0098C12.4702 12.0205 12.4688 11.3381 12.4702 11.2092C12.4477 11.0692 12.4007 10.9338 12.3314 10.8088ZM11.3596 14.0115C11.3596 14.5044 11.3623 14.6767 11.3596 14.6787C11.3288 14.7583 11.2723 14.8263 11.1983 14.8727C11.1243 14.9192 11.0368 14.9416 10.9486 14.9366C10.8595 14.9395 10.7714 14.9164 10.6961 14.8704C10.6208 14.8243 10.5617 14.7575 10.5266 14.6787C10.5016 14.606 10.5266 14.4628 10.5266 14.0115V12.677C10.5266 12.2072 10.5044 11.942 10.5266 11.8764C10.5612 11.7976 10.6191 11.7303 10.6932 11.6829C10.7672 11.6354 10.8541 11.6099 10.9431 11.6095C11.0325 11.608 11.1203 11.6327 11.1947 11.6804C11.2691 11.7281 11.3266 11.7965 11.3596 11.8764C11.3832 11.949 11.3596 12.2327 11.3596 12.677V14.0115ZM14.275 13.3443H16.2186V12.8105C16.2186 12.2913 16.1797 11.6198 16.0798 11.3426C15.9867 11.074 15.7604 10.969 15.5244 10.8088C15.2857 10.6327 14.9924 10.5387 14.6915 10.542C14.3985 10.542 14.082 10.545 13.8585 10.6754C13.6086 10.84 13.4153 11.0722 13.3032 11.3426C13.1991 11.5996 13.1643 12.0249 13.1643 12.677V14.2784C13.1575 14.7111 13.2835 15.1361 13.5267 15.5003C13.6653 15.6576 13.8429 15.7787 14.0431 15.8526C14.2917 15.9562 14.5594 16.0107 14.8303 16.0131C15.0252 16.0237 15.2188 15.9772 15.3856 15.8797C15.5647 15.7884 15.8201 15.6607 15.9409 15.4793C16.1853 14.8728 16.2186 15.0781 16.2186 14.1449V13.878H15.108V14.4118C15.108 14.7131 15.1524 14.961 15.108 15.079C15.0742 15.1584 15.0165 15.2262 14.9422 15.2738C14.868 15.3213 14.7807 15.3464 14.6915 15.3459C14.343 15.35 14.275 15.0178 14.275 14.5452V13.3443ZM14.275 12.0098C14.275 11.5731 14.2542 11.669 14.275 11.6095C14.3092 11.5305 14.3671 11.4629 14.4412 11.4155C14.5153 11.368 14.6024 11.3426 14.6915 11.3426C14.7805 11.3426 14.8676 11.368 14.9417 11.4155C15.0159 11.4629 15.0737 11.5305 15.108 11.6095C15.1274 11.6708 15.108 11.603 15.108 12.0098V12.8105H14.275V12.0098Z" fill="white"/>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer__animation">
+            <div class="footer__animation-item">
+                <img src="img/smils/1.svg" alt="">
+            </div>
+            <div class="footer__animation-item">
+                <img src="img/smils/2.svg" alt="">
+            </div>
+            <div class="footer__animation-item">
+                <img src="img/smils/3.svg" alt="">
+            </div>
+            <div class="footer__animation-item">
+                <img src="img/smils/4.svg" alt="">
+            </div>
+            <div class="footer__animation-item">
+                <img src="img/smils/5.svg" alt="">
+            </div>
+            <div class="footer__animation-item">
+                <img src="img/smils/6.svg" alt="">
+            </div>
+            <div class="footer__animation-item">
+                <img src="img/smils/7.svg" alt="">
+            </div>
+            <div class="footer__animation-item">
+                <img src="img/smils/8.svg" alt="">
+            </div>
+            <div class="footer__animation-item">
+                <img src="img/smils/9.svg" alt="">
+            </div>
+            <div class="footer__animation-item">
+                <img src="img/smils/10.svg" alt="">
+            </div>
+            <div class="footer__animation-item">
+                <img src="img/smils/1.svg" alt="">
+            </div>
+            <div class="footer__animation-item">
+                <img src="img/smils/2.svg" alt="">
+            </div>
+            <div class="footer__animation-item">
+                <img src="img/smils/3.svg" alt="">
+            </div>
+            <div class="footer__animation-item">
+                <img src="img/smils/4.svg" alt="">
+            </div>
+            <div class="footer__animation-item">
+                <img src="img/smils/5.svg" alt="">
+            </div>
+            <div class="footer__animation-item">
+                <img src="img/smils/6.svg" alt="">
+            </div>
+            <div class="footer__animation-item">
+                <img src="img/smils/7.svg" alt="">
+            </div>
+            <div class="footer__animation-item">
+                <img src="img/smils/8.svg" alt="">
+            </div>
+            <div class="footer__animation-item">
+                <img src="img/smils/9.svg" alt="">
+            </div>
+            <div class="footer__animation-item">
+                <img src="img/smils/10.svg" alt="">
+            </div>
+            <div class="footer__animation-item">
+                <img src="img/smils/1.svg" alt="">
+            </div>
+            <div class="footer__animation-item">
+                <img src="img/smils/2.svg" alt="">
+            </div>
+            <div class="footer__animation-item">
+                <img src="img/smils/3.svg" alt="">
+            </div>
+            <div class="footer__animation-item">
+                <img src="img/smils/4.svg" alt="">
+            </div>
+            <div class="footer__animation-item">
+                <img src="img/smils/5.svg" alt="">
+            </div>
+            <div class="footer__animation-item">
+                <img src="img/smils/6.svg" alt="">
+            </div>
+            <div class="footer__animation-item">
+                <img src="img/smils/7.svg" alt="">
+            </div>
+            <div class="footer__animation-item">
+                <img src="img/smils/8.svg" alt="">
+            </div>
+            <div class="footer__animation-item">
+                <img src="img/smils/9.svg" alt="">
+            </div>
+            <div class="footer__animation-item">
+                <img src="img/smils/10.svg" alt="">
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
